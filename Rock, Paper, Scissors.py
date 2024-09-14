@@ -5,7 +5,7 @@ def play():
     computer = random.choice(['rock','paper','scissors'])
 
     if user == computer:
-      return 'tie'
+      return 'tie womp womp'
     
     # r > s, s > p, p > r
     if is_win(user, computer):
