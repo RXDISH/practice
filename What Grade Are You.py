@@ -4,9 +4,9 @@ if grade == 9:
   print('Freshman')
 elif grade == 10:
   print('Sophomore')
-elif rating == 11:
+elif grade == 11:
   print('Junior')
-elif rating == 12:
+elif grade == 12:
   print ('Senior')
 else:
   print ('TBD')
