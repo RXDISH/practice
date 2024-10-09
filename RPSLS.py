@@ -3,7 +3,9 @@ computer = ''
 import random
 
 print('-----------------------------------')
+print('-----------------------------------')
 print('Rock, Paper,Scissors, Lizard, Spock')
+print('-----------------------------------')
 print('-----------------------------------')
 
 print('The Rules Are...')
