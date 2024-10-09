@@ -1,12 +1,12 @@
 month = int(input('Please enter the month (1-12): '))
 
-if month == 1 or 2 or 3:
+if month == range(1, 4):
   print ('Winter')
-elif month == 4 or 5 or 6:
+elif month == range(4, 7):
   print ('Spring')
-elif month == 7 or 8 or 9:
+elif month == range(7, 10):
   print ('Summer')
-elif month == 10 or 11 or 12:
+elif month == range(10, 13):
   print ('Autumn')
 else:
   print('That number is invalid, just like you for trying to break my code <3')
