@@ -4,7 +4,7 @@ for num in range(1,101):
         ForB = ForB + "Fizz" # print Fizz
     if num % 5 == 0: # if number can be divided by 5
         ForB = ForB + "Buzz" # print Buzz
-    if num % 5 != 0 and num % 3 != 0:
+    if num % 5 != 0 and num % 3 != 0: # if not divisible by 5 or 3
         ForB = ForB + str(num) # add the numbers inbetween
     print(ForB) # print whole sequence
 
