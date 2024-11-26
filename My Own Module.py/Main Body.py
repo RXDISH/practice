@@ -1,4 +1,4 @@
-import datetime, bday messages
+import datetime, bday_messages
 
 today = datetime.date.today() # generates todays date
 
