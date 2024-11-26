@@ -1,12 +1,12 @@
 import datetime, bday_messages
 
-today = datetime.date.today() # generates todays date
+today = datetime.date.today()
 
-next_bday = datetime.date(2007, 8, 6) # year, month, date, format
+my_next_birthday = datetime.date(2007, 8, 6)
 
-time_diff = today - next_bday
+days_away = my_next_birthday - today
 
-if next_bday == today:
+if my_next_birthday == today:
   print(bday_messages.random_message)
 else:
-  print(f'My next birthday is {time_diff} days away!')
+  print(f'My next birthday is {days_away.days} days away!')
