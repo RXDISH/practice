@@ -1,1 +1,3 @@
-pip3 install wikipedia
+import wikipedia
+
+print(wikipedia.search('Philosophy of life'))
