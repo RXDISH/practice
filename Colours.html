@@ -1,0 +1,114 @@
+<!-- This attribute uses a special syntax where a style is made of a property
+(i.e., color) and a value (red), separated by a : colon. Multiple styles can
+be applied to a single element, but they must be separated by a ; semi-colon -->
+
+<p>
+    Roses are <span style="color:red;">red</span>.<br />
+    Violets are <span style="color:blue;">blue</span>.
+  </p>
+  
+  <p>
+    Roses are <span style="color:red; text-decoration:underline;">red</span>.<br />
+    Violets are <span style="color:blue; text-decoration:underline;">blue</span>.
+  </p>
+  
+  <!-- The following is the rendered paragraph with our styles applied to the <span> elements:
+  - The color property sets the color for the text of an element.
+  - The text-decoration adds text formatting (such as underline), similar to what the
+  <b>, <i>, <u>, and <s> elements do.-->
+  
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        ... Styles for elements go here
+      </style>
+    </head>
+    <body>
+      ... Elements go here
+    </body>
+  </html>
+  
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        <style>
+    element {
+      property: value;
+    }
+  </style>
+      </style>
+    </head>
+    <body>
+      ... Elements go here
+    </body>
+  </html>
+  
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        span {
+          text-decoration: underline;
+        }
+  
+        #red-word {
+          color: red;
+        }
+  
+        #blue-word {
+          color: blue;
+        }
+      </style>
+    </head>
+    <body>
+      <p>
+        Roses are <span id="red-word">red</span>.<br />
+        Violets are <span id="blue-word">blue</span>.<br />
+      </p>
+    </body>
+  </html>
+  
+  <head>
+    <title>Power Rangers</title>
+    <style>
+      .ranger-div {
+        width: 50%;
+        height: 100px;
+      }
+      
+      #red-ranger {
+        background-color: red;
+      }
+      
+      #blue-ranger {
+        background-color: blue;
+      }
+      
+      #black-ranger {
+        background-color: black;
+      }
+      
+      #yellow-ranger {
+        background-color: yellow;
+      }
+      
+      #pink-ranger {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ranger-div" id="red-ranger">
+    </div>
+    <div class="ranger-div" id="blue-ranger">
+    </div>
+    <div class="ranger-div" id="black-ranger">
+    </div>
+    <div class="ranger-div" id="yellow-ranger">
+    </div>
+    <div class="ranger-div" id="pink-ranger">
+    </div>  
+  </body>
+  </html>

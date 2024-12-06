@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MySpace Top 8</title>
+  <style>
+    .friend-card { 
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+      width: 200px; /* Control the size of the card */
+    }
+    
+    .friend-name {
+      color: rgb(83, 183, 177);
+    }
+    
+    body {
+      width: 85%;
+      margin: auto;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    img {
+      width: 200px;  /* Fixed width */
+      height: 200px; /* Fixed height, making the image square */
+      object-fit: cover; /* Ensures the image fills the square area without distortion */
+      border: 3px solid green; /* Green border around each image */
+    }
+  
+    #top-8-wrapper {
+      text-align: center;
+    }
+
+    .top-8-row {
+      display: flex;
+      justify-content: center;
+      gap: 10px; /* Adds space between friend cards */
+      margin-bottom: 20px; /* Adds space between rows */
+    }
+  </style>
+</head>
+<body>
+  <div id="top-8-wrapper">
+    <h1>Random People</h1>
+    <div class="top-8-row">
+      <div class="friend-card">
+        <h2 class="friend-name">Chappell Roan</h2>
+        <img src="https://external-preview.redd.it/chappell-roan-is-a-star-v0-_Xwbyet0ECVJibRQBA9DqzaL-nXagDKHMPUIW0Bo5Kg.jpg?width=640&crop=smart&auto=webp&s=5c2e91c4a9aaeeac62f2bf41f669b72e2efd75f2" alt="Chappell Roan">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">Albert Einstein</h2>
+        <img src="https://media.nature.com/lw767/magazine-assets/d41586-024-03075-0/d41586-024-03075-0_27692010.jpg" alt="Albert Einstein">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">Amelie</h2>
+        <img src="https://images.bauerhosting.com/legacy/empire-tmdb/films/194/images/nxhfenC1jb5EcTI5GYxqnjYZMId.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80" alt="Amelie">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">Faye Webster</h2>
+        <img src="https://jaxmusic.org/wp-content/uploads/2024/10/unnamed-e1728051809160.jpg" alt="Faye Webster">
+      </div>
+    </div>
+
+    <div class="top-8-row">
+      <div class="friend-card">
+        <h2 class="friend-name">My Friend Tom</h2>
+        <img src="https://i.imgur.com/d9USJcY.jpeg" alt="Tom from MySpace">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">My Friend Tom</h2>
+        <img src="https://i.imgur.com/d9USJcY.jpeg" alt="Tom from MySpace">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">My Friend Tom</h2>
+        <img src="https://i.imgur.com/d9USJcY.jpeg" alt="Tom from MySpace">
+      </div>
+
+      <div class="friend-card">
+        <h2 class="friend-name">My Friend Tom</h2>
+        <img src="https://i.imgur.com/d9USJcY.jpeg" alt="Tom from MySpace">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
