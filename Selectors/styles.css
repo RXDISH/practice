@@ -1,0 +1,22 @@
+div {
+    border: 1px solid;
+    text-align: center;
+  }
+  
+  .line { /*class selector*/
+    margin: auto;
+    padding: 10px 0;
+    text-decoration: underline;
+  }
+  
+  #roses { /*these are all ID's*/
+    background-color: red;
+  }
+  
+  #violets {
+    background-color: violet;
+  }
+  
+  #sugar {
+    background-color: beige;
+  }
