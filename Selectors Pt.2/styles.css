@@ -1,22 +1,21 @@
-div {
+ul, ol {
     border: 1px solid;
-    text-align: center;
     width: 200px;
   }
-
-ul {
+  
+  ul {
     background-color: lightgreen;
   }
-
-ol {
+  
+  ol {
     background-color: skyblue;
     color: white;
   }
-
+  
   ul > li {
     text-decoration: underline wavy 3px brown;
-    }
-
-    ol > li {
-        text-decoration: underline dotted 3px indigo;
-    }
+  }
+  
+  ol > li {
+    text-decoration: underline dotted 3px indigo;
+  }
