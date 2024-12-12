@@ -22,3 +22,13 @@ footer{
     margin: 0 auto;
     text-align: center;
 }
+
+header > img { /*selects just the image in the header?*/
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+  
+  #night-2 { /*selects the night-2 id*/
+    text-align: right;
+  }
