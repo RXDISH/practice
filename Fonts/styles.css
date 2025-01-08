@@ -1,3 +1,13 @@
 p {
     font-family: Arial, sans-serif;
   }
+
+  /* With Absolute Units */
+p {
+  font-size: 12px;
+}
+
+/* With Relative Units */
+/*p {
+  font-size: 12em;
+}
