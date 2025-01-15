@@ -1,0 +1,44 @@
+* {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+div {
+    border: 2px thick solid grey;
+  }
+  
+  #post-list > li {
+    list-style-type: none;
+  }
+  
+  li > div {
+    text-align: left;
+  }
+  
+  #top-img {
+    width: 10em;
+    height: 10em;
+    border: 1px thick solid green:
+    border-radius: 50%;
+  }
+  
+  #outside-wrapper {
+    width: 90%;
+    background-color: rgb(169, 206, 221);
+    text-align: center;
+  }
+  
+  .post-wrapper {
+    text-align: left;
+    background-color: #f5f5f5;
+    border-radius: 
+  }
+  
+  .post-img {
+    width: 100%;
+    /* Add `border-radius` here */
+  }
+
+
+
+
+  
