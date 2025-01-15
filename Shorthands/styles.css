@@ -1,0 +1,15 @@
+h1 {
+    border: 3px dashed #f8c1bf;
+    font: 800 22px Georgia, serif;
+    color: #68c9d2;
+}
+
+p {
+    font: 800 18px Georgia, serif;
+    color: #e2be5e;
+}
+
+b {
+    font: 800 12px Georgia, serif;
+    color: #c2e0bc;
+}
