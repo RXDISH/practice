@@ -6,6 +6,10 @@ div {
     border: 2px thick solid grey;
   }
   
+  #post-list {
+    padding-right: 40px;
+  }
+
   #post-list > li {
     list-style-type: none;
   }
@@ -17,7 +21,7 @@ div {
   #top-img {
     width: 10em;
     height: 10em;
-    border: 1px thick solid green:
+    border: 1px thick solid green;
     border-radius: 50%;
   }
   
@@ -30,12 +34,14 @@ div {
   .post-wrapper {
     text-align: left;
     background-color: #f5f5f5;
-    border-radius: 
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-right: 50px;
   }
   
   .post-img {
     width: 100%;
-    /* Add `border-radius` here */
+    border-radius: 5px;
   }
 
 
