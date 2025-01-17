@@ -29,6 +29,7 @@ div {
     width: 90%;
     background-color: rgb(169, 206, 221);
     text-align: center;
+    margin: auto;
   }
   
   .post-wrapper {
@@ -37,6 +38,8 @@ div {
     border-radius: 5px;
     padding-top: 50px;
     padding-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   
   .post-img {
