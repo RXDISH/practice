@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: hsl(0, 82%, 85%);
+    background-color: hsl(0, 82%, 85%); /* make this a cool gif one day */
     color: #333;
 }
 
@@ -79,7 +79,6 @@ body {
 }
 
 /* column layout */
-/* Two-column layout */
 .container {
     display: flex;
     max-width: 1200px;
@@ -110,6 +109,8 @@ body {
     padding: 15px;
     border-radius: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    
 }
 
 /* cutesy little credits box */
